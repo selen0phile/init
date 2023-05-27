@@ -4,7 +4,7 @@ import sys
 import shlex
 import subprocess
 from os import chdir
-
+###
 chdir('/srv/')
 print('please enter your script, terminated by the word "end"')
 sys.stdout.flush()
